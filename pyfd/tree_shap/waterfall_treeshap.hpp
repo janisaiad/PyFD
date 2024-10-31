@@ -10,7 +10,7 @@
 #include <stdexcept>
 #include "progressbar.hpp"
 #include "utils.hpp"
-
+#include <tuple>
 
 // Waterfall-based additive decomposition
 int waterfall_additive(Matrix<double> &X_f,

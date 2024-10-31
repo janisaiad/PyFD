@@ -11,7 +11,7 @@
 #include <set>
 #include "progressbar.hpp"
 #include "utils.hpp"
-
+#include <tuple>
 
 // Leaf-based additive decomposition
 int leaf_additive(Matrix<double> &X_f, 
