@@ -12,7 +12,7 @@ from sklearn.utils import shuffle
 from sklearn.base import BaseEstimator, TransformerMixin
 from sklearn.impute import SimpleImputer
 
-from .features import Features
+from pyfd.features import Features
 
 
 class TargetEncoder(BaseEstimator, TransformerMixin):

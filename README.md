@@ -9,7 +9,8 @@ To install this package clone the repository and run
 
 ```bash
 cd PyFD/
-python3 -m pip install .
+chmod +x launch.sh
+./launch.sh
 ```
 
 # 🔍 Unification of Additive Explanations
